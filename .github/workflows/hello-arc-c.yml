@@ -25,7 +25,7 @@ jobs:
         
       # Runs a single command using the runners shell
       - name: build
-        run: clang -o hello-arc-c hello-arc.c
+        run: clang-9 -o hello-arc-c hello-arc.c
 
       # Runs docker hello-world
       - name: run
